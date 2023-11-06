@@ -19,7 +19,7 @@ function App() {
     <>
       <h1>Counter App</h1>
       <h2>Counter : {count}</h2>
-      <button style={{'margin-right':'10px'}} onClick={incrementCount}>+1 count</button>
+      <button style={{'margin-right':'11px'}} onClick={incrementCount}>+1 count</button>
       {count == 0 ? <button onClick={decrementCount} disabled>-1 count</button> : <button onClick={decrementCount}>-1 count</button>}
     </>
   )
